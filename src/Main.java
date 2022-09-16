@@ -35,8 +35,8 @@ public class Main {
         byte classA = 27;
         byte classE = 30;
         byte classAll = (byte) (classL + classA + classE);
-        int listPerStudent = 480 / classAll;
-        System.out.println("На каждого ученика рассчитано " + listPerStudent + " листов бумаги" );
+        int listsPerStudent = 480 / classAll;
+        System.out.println("На каждого ученика рассчитано " + listsPerStudent + " листов бумаги" );
 
         // Задача 4
         System.out.println("Задача 4");
@@ -80,8 +80,8 @@ public class Main {
         System.out.println("Если худеть по 250 грамм в день понадобиться " + minDay + " дней.");
         short maxDay = (short) (deltaWeight/maxWeight);
         System.out.println("Если худеть по 500 грамм в день понадобиться " + maxDay + " дней.");
-        short midDay = (short) ((minDay + maxDay)/2);
-        System.out.println("В среднем на похудение понадобиться " + midDay + " дней.");
+        short midDay = (short) ((minDay + maxDay)/2); //Четное число дней делим на 2 поэтому можно использовать short
+        System.out.println("В среднем на похудение понадобиться " + midDay + " день.");
 
         // Задача 8
         System.out.println("Задача 8");
