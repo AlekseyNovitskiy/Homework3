@@ -7,7 +7,7 @@ public class Main {
         byte small = 64;
         short normal =30000;
         long big = 100000000000L;
-        float point = 75.5f;
+        float point = 75.5F;
         double pointLong = 50.57387466;
         System.out.println("Значение переменной usually с типом int равно " + usually);
         System.out.println("Значение переменной small с типом byte равно " + small);
@@ -19,11 +19,11 @@ public class Main {
         // Задача 2
         System.out.println("Задача 2");
 
-        float a = 27.12f;
+        float a = 27.12F;
         long b = 987678965549L;
         double c = 2.786;
         boolean d = false;
-        short g = 569;
+        char g = 569;
         short n = -159;
         int u = 27897;
         byte i = 67;
