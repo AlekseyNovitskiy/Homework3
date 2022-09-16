@@ -6,7 +6,7 @@ public class Main {
         int usually = 1000000000;
         byte small = 64;
         short normal =30000;
-        long big = 100000000000l;
+        long big = 100000000000L;
         float point = 75.5f;
         double pointLong = 50.57387466;
         System.out.println("Значение переменной usually с типом int равно " + usually);
